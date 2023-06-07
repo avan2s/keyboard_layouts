@@ -7,7 +7,7 @@ Clone this repository, pick the desired layout
 ## on MacOs
 1. Copy the whole command
 ```
-git clone git@github.com:avan2s/keyboard_layouts.git && cp -R ./keyboard_layouts/macos/us_german_dev.bundle ~/Library/Keyboard\ Layouts/. && rm -Rf ./keyboard_layouts
+git clone git@github.com:avan2s/keyboard_layouts.git && mkdir -p ~/Library/Keyboard\ Layouts && cp -R ./keyboard_layouts/macos/us_german_dev.bundle ~/Library/Keyboard\ Layouts/. && rm -Rf ./keyboard_layouts
 ```
 
 2. Restart your mac und go to your input sources
